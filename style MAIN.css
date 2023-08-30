@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+
+}
+.contaner{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:400px;
+    height: 400px;
+    margin-left: 60px;
+
+    background-color: blue;
+
+}
+.text{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+}
+.question{
+    background-color: aquamarine;
+    color:rgb(15, 12, 7);
+    margin-top: 20px;
+    font-size: 18px;
+}
+.option-cantener{
+    display: flex;
+    flex-direction: column;
+}
+.option-cantener lable{
+background-color: black;
+color: white;
+width:200px;
+height: 40px;
+transition: 0.5s;
+
+}
+.option-cantener input{
+    margin-left: 170px;
+    
+
+    }
+
+    .option-cantener  input:checked + lable{
+        background-color: blue;
+        transition: 0.5s;
+        
+        }
